@@ -15,7 +15,7 @@ select = io.read()
 
 if select == "c" then
 term.clear()
-os.execute("/home/hub")
+os.execute("/home/hub/manage/r/auswahl")
 else
 modem.broadcast(port, select)
 goto menu

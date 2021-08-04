@@ -11,7 +11,7 @@ modem.open(port)
 
 while true do
 local type, _, _, _, _, message = event.pull(2, "modem")
-if type == "modem_message"  and string.match(message, keyword) then
+if type == "modem_message" then
 	os.execute(message)
 end
 end

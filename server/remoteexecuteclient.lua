@@ -4,8 +4,8 @@ local event = require("event")
 local computer = require("computer")
 local keyboard = require("keyboard")
 modem = component.modem
-local port = 101
-local keyword = "PC1"
+local port = 102
+local keyword = "PC2"
 
 modem.open(port)
 
